@@ -1,0 +1,13 @@
+git --version
+
+git config --global user.name "devops"
+git config --global user.email "devops@gmail.com"
+
+mkdir repo
+cd repo
+git init
+git add .
+git commit -m "first commit"
+git remote add origin "repo url"
+git branch -M main
+git push -u origin main
